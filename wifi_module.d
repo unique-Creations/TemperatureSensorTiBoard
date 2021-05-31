@@ -1,0 +1,17 @@
+.\wifi_module.o: wifi_module.c
+.\wifi_module.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\wifi_module.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\wifi_module.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\wifi_module.o: ..\..\..\..\inc/tm4c123gh6pm.h
+.\wifi_module.o: ..\..\..\..\inc/hw_memmap.h
+.\wifi_module.o: ..\..\..\..\inc/hw_types.h
+.\wifi_module.o: ..\..\..\..\inc/hw_timer.h
+.\wifi_module.o: ..\..\..\..\inc/hw_gpio.h
+.\wifi_module.o: ..\..\..\..\driverlib/debug.h
+.\wifi_module.o: ..\..\..\..\driverlib/sysctl.h
+.\wifi_module.o: ..\..\..\..\driverlib/interrupt.h
+.\wifi_module.o: ..\..\..\..\driverlib/timer.h
+.\wifi_module.o: ..\..\..\..\driverlib/gpio.h
+.\wifi_module.o: ..\..\..\..\driverlib/pin_map.h
+.\wifi_module.o: ..\..\..\..\driverlib/uart.h
+.\wifi_module.o: ..\..\..\..\driverlib/rom.h

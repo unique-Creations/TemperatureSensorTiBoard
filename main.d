@@ -1,0 +1,17 @@
+.\main.o: main.c
+.\main.o: Display.h
+.\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\main.o: TemperatureSensor.h
+.\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\main.o: ..\..\..\..\driverlib/sysctl.h
+.\main.o: ..\..\..\..\driverlib/interrupt.h
+.\main.o: ..\..\..\..\inc/tm4c123gh6pm.h
+.\main.o: ..\..\..\..\inc/hw_gpio.h
+.\main.o: Init.h
+.\main.o: ..\..\..\..\inc/hw_memmap.h
+.\main.o: ..\..\..\..\inc/hw_types.h
+.\main.o: ..\..\..\..\driverlib/adc.h
+.\main.o: Motion_Sensor.h

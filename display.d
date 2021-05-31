@@ -1,0 +1,12 @@
+.\display.o: Display.c
+.\display.o: ..\..\..\..\inc/tm4c123gh6pm.h
+.\display.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\display.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\display.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\display.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\display.o: ..\..\..\..\inc/hw_types.h
+.\display.o: ..\..\..\..\inc/hw_memmap.h
+.\display.o: ..\..\..\..\inc/hw_gpio.h
+.\display.o: ..\..\..\..\driverlib/pin_map.h
+.\display.o: ..\..\..\..\driverlib/rom_map.h
+.\display.o: I2C.h

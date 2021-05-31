@@ -1,0 +1,12 @@
+.\i2c.o: I2C.c
+.\i2c.o: ..\..\..\..\inc/tm4c123gh6pm.h
+.\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\i2c.o: ..\..\..\..\inc/hw_types.h
+.\i2c.o: ..\..\..\..\inc/hw_memmap.h
+.\i2c.o: ..\..\..\..\inc/hw_gpio.h
+.\i2c.o: ..\..\..\..\driverlib/pin_map.h
+.\i2c.o: ..\..\..\..\driverlib/rom_map.h

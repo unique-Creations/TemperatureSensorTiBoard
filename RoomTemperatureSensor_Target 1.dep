@@ -1,0 +1,105 @@
+Dependencies for Project 'RoomTemperatureSensor', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x601A1E27)()
+F (..\..\..\project\startup_rvmdk.S)(0x60A48459)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\Ernesto\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533" --pd "TM4C123GH6PM SETA 1"--list .\startup_rvmdk.lst --xref -o .\startup_rvmdk.o --depend .\startup_rvmdk.d)
+F (.\Display.c)(0x60A4792E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\..\..-IC:\Users\Ernesto\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM-o .\display.o --omf_browse .\display.crf --depend .\display.d)
+I (..\..\..\..\inc/tm4c123gh6pm.h)(0x609732AC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8F0FB2)
+I (..\..\..\..\inc/hw_types.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_memmap.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_gpio.h)(0x601A1E2B)
+I (..\..\..\..\driverlib/pin_map.h)(0x601A1E27)
+I (..\..\..\..\driverlib/rom_map.h)(0x601A1E27)
+I (I2C.h)(0x609F2DCC)
+F (.\TemperatureSensor.c)(0x60A49113)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\..\..-IC:\Users\Ernesto\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM-o .\temperaturesensor.o --omf_browse .\temperaturesensor.crf --depend .\temperaturesensor.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8F0FB2)
+I (..\..\..\..\inc/hw_memmap.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_types.h)(0x601A1E2B)
+I (..\..\..\..\driverlib/debug.h)(0x601A1E27)
+I (..\..\..\..\driverlib/sysctl.h)(0x601A1E27)
+I (..\..\..\..\driverlib/adc.h)(0x601A1E27)
+I (..\..\..\..\driverlib/interrupt.h)(0x601A1E27)
+I (..\..\..\..\inc/tm4c123gh6pm.h)(0x609732AC)
+I (..\..\..\..\driverlib/timer.h)(0x601A1E27)
+I (..\..\..\..\inc/hw_gpio.h)(0x601A1E2B)
+I (..\..\..\..\driverlib/pin_map.h)(0x601A1E27)
+I (..\..\..\..\driverlib/rom_map.h)(0x601A1E27)
+I (..\..\..\..\driverlib/gpio.h)(0x601A1E27)
+I (Display.h)(0x60A4792E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8F0FB2)
+F (.\Display.h)(0x60A4792E)()
+F (.\TemperatureSensor.h)(0x60A06DC8)()
+F (.\main.c)(0x60A48C02)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\..\..-IC:\Users\Ernesto\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (Display.h)(0x60A4792E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8F0FB2)
+I (TemperatureSensor.h)(0x60A06DC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8F0FB2)
+I (..\..\..\..\driverlib/sysctl.h)(0x601A1E27)
+I (..\..\..\..\driverlib/interrupt.h)(0x601A1E27)
+I (..\..\..\..\inc/tm4c123gh6pm.h)(0x609732AC)
+I (..\..\..\..\inc/hw_gpio.h)(0x601A1E2B)
+I (Init.h)(0x60A485E5)
+I (..\..\..\..\inc/hw_memmap.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_types.h)(0x601A1E2B)
+I (..\..\..\..\driverlib/adc.h)(0x601A1E27)
+I (Motion_Sensor.h)(0x60A485E5)
+F (.\Init.c)(0x60A48E32)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\..\..-IC:\Users\Ernesto\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM-o .\init.o --omf_browse .\init.crf --depend .\init.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (Display.h)(0x60A4792E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8F0FB2)
+I (..\..\..\..\inc/hw_types.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_memmap.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_gpio.h)(0x601A1E2B)
+I (..\..\..\..\driverlib/pin_map.h)(0x601A1E27)
+I (..\..\..\..\driverlib/rom_map.h)(0x601A1E27)
+I (..\..\..\..\inc/tm4c123gh6pm.h)(0x609732AC)
+I (..\..\..\..\driverlib/timer.h)(0x601A1E27)
+I (..\..\..\..\driverlib/interrupt.h)(0x601A1E27)
+I (..\..\..\..\driverlib/sysctl.h)(0x601A1E27)
+I (..\..\..\..\driverlib/adc.h)(0x601A1E27)
+I (..\..\..\..\driverlib/gpio.h)(0x601A1E27)
+F (.\Init.h)(0x60A485E5)()
+F (.\I2C.c)(0x60A05E18)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\..\..-IC:\Users\Ernesto\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (..\..\..\..\inc/tm4c123gh6pm.h)(0x609732AC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8F0FB2)
+I (..\..\..\..\inc/hw_types.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_memmap.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_gpio.h)(0x601A1E2B)
+I (..\..\..\..\driverlib/pin_map.h)(0x601A1E27)
+I (..\..\..\..\driverlib/rom_map.h)(0x601A1E27)
+F (.\I2C.h)(0x609F2DCC)()
+F (.\Motion_Sensor.c)(0x60A485E5)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\..\..-IC:\Users\Ernesto\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM-o .\motion_sensor.o --omf_browse .\motion_sensor.crf --depend .\motion_sensor.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8F0FB2)
+I (..\..\..\..\inc/tm4c123gh6pm.h)(0x609732AC)
+I (..\..\..\..\driverlib/sysctl.h)(0x601A1E27)
+I (..\..\..\..\inc/hw_types.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_memmap.h)(0x601A1E2B)
+I (..\..\..\..\inc/hw_gpio.h)(0x601A1E2B)
+I (..\..\..\..\driverlib/pin_map.h)(0x601A1E27)
+I (..\..\..\..\driverlib/gpio.h)(0x601A1E27)
+I (..\..\..\..\driverlib/interrupt.h)(0x601A1E27)
+I (TemperatureSensor.h)(0x60A06DC8)
+I (..\..\..\..\driverlib/adc.h)(0x601A1E27)
+I (Init.h)(0x60A485E5)
+I (Display.h)(0x60A4792E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8F0FB2)
+F (.\Motion_Sensor.h)(0x60A485E5)()
